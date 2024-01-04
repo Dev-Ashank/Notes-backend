@@ -14,6 +14,36 @@ The Notes App is a simple web application built with Express that allows users t
 
 - **Share Note:** Users can share a note with other users by specifying the user ID.
 
+## Technologies Used
+
+### Backend Framework
+
+- **Express:** A fast, unopinionated, minimalist web framework for Node.js.
+
+### Database
+
+- **MongoDB:** A NoSQL database used for storing and retrieving data.
+
+### Authentication
+
+- **JSON Web Token (JWT):** A compact, URL-safe means of representing claims to be transferred between two parties.
+
+### Validation
+
+- **Validator:** A library for string validation and sanitization.
+
+### Rate Limiting
+
+- **express-rate-limit:** Middleware to limit repeated requests to public APIs and/or endpoints.
+
+### Request Throttling
+
+- **express-slow-down:** Middleware for adding delay before the request is processed.
+
+### Testing
+
+- **Jest:** A delightful JavaScript Testing Framework with a focus on simplicity.
+
 ## Setup
 
 ### Prerequisites
